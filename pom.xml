@@ -274,9 +274,7 @@
  <artifactId>jelastic-maven-plugin</artifactId>
  <version>1.7</version>
  <configuration>
-     <properties>
           <packaging.type>war</packaging.type>
-      </properties>
  </configuration>
 </plugin>
 
