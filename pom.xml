@@ -6,7 +6,7 @@
     
     <groupId>org.mycompany</groupId>
     <artifactId>helloworld</artifactId>
-    <packaging>war</packaging>
+    <packaging>grails-app</packaging>
     <version>0.1</version>
 
     <name>helloworld</name>
@@ -262,6 +262,15 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>       
         </configuration>
              </plugin>
+
+<plugin>
+ <groupId>com.jelastic</groupId>
+ <artifactId>jelastic-maven-plugin</artifactId>
+ <version>1.7</version>
+ <configuration>
+<packaging>grails-app</packaging>
+ </configuration>
+</plugin>
 
 
         </plugins>
