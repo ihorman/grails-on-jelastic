@@ -251,6 +251,7 @@
         <configuration>
           <archive>
             <manifest>
+              <warSourceDirectory>web-app</warSourceDirectory>
               <addClasspath>true</addClasspath>
             </manifest>
           </archive>
