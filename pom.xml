@@ -6,7 +6,7 @@
     
     <groupId>org.mycompany</groupId>
     <artifactId>helloworld</artifactId>
-    <packaging>${packaging.type}</packaging>
+    <packaging>grails-app</packaging>
     <version>0.1</version>
 
     <name>helloworld</name>
@@ -255,7 +255,6 @@
                 <version>2.4.2</version>
                 <configuration>
                     <grailsVersion>${grails.version}</grailsVersion>
-                    <packaging.type>war</packaging.type>
                 </configuration>
                 <extensions>true</extensions>
             </plugin>
