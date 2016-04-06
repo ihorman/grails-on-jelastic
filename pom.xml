@@ -273,6 +273,7 @@
  <artifactId>jelastic-maven-plugin</artifactId>
  <version>1.7</version>
  <configuration>
+<artifactId>helloworld-0.1.war</artifactId>
 <packaging>war</packaging>
  </configuration>
 </plugin>
