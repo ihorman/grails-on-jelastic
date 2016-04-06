@@ -6,7 +6,7 @@
     
     <groupId>org.mycompany</groupId>
     <artifactId>helloworld</artifactId>
-    <packaging>grails-app</packaging>
+    <packaging>war</packaging>
     <version>0.1</version>
 
     <name>helloworld</name>
@@ -272,9 +272,8 @@
  <groupId>com.jelastic</groupId>
  <artifactId>jelastic-maven-plugin</artifactId>
  <version>1.7</version>
+ <packaging>war</packaging>
  <configuration>
-<artifactId>helloworld-0.1.war</artifactId>
-<packaging>war</packaging>
  </configuration>
 </plugin>
 
