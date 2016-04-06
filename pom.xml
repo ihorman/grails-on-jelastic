@@ -113,10 +113,13 @@
             <artifactId>grails-datastore-test-support</artifactId>
             <version>1.0-grails-2.3</version>
             <scope>test</scope>
-            
-            
         </dependency>
-        
+       
+<dependency>
+   <groupId>org.codehaus.groovy</groupId>
+   <artifactId>groovy</artifactId>
+   <version>2.4.0-beta-1</version>
+</dependency>  
         
         <dependency>
             <groupId>org.grails.plugins</groupId>
