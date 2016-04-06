@@ -268,7 +268,7 @@
  <artifactId>jelastic-maven-plugin</artifactId>
  <version>1.7</version>
  <configuration>
-<packaging>grails-app</packaging>
+<packaging>war</packaging>
  </configuration>
 </plugin>
 
