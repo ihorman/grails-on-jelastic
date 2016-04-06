@@ -6,7 +6,7 @@
     
     <groupId>org.mycompany</groupId>
     <artifactId>helloworld</artifactId>
-    <packaging>grails-app</packaging>
+    <packaging>war</packaging>
     <version>0.1</version>
 
     <name>helloworld</name>
