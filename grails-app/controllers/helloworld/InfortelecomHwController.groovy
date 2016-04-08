@@ -8,6 +8,7 @@ class InfortelecomHwController {
     ResourceLocator grailsResourceLocator
 
     def index() { 
-       render "Hello from Infortelecom!" 
+    final Resource image = grailsResourceLocator.findResourceForURI('/images/it2.png')
+    render file: image.inputStream, contentType: 'image/png'
 }
 }
